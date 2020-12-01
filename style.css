@@ -6,7 +6,7 @@
     border: lightslategray solid;
     margin: 5%;
     padding: 5%;    
-    background-color: rgb(241, 236, 241);
+    background-color: rgb(248, 237, 234);
 }
 .Header-pic {
     display: block;
@@ -16,12 +16,14 @@
 }
 .Header-pic img {
     width: 100%;
+    border: 3px solid rgb(201, 199, 199);
 }
 .centre-align {
     text-align: center;
     align-items: center;
 }
-h1 {
+.main h2 {
+    font-family: Andale Mono, monospace;
     color: rgb(49, 48, 48);
 }
 .Darwin h3 {
