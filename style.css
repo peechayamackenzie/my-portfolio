@@ -4,7 +4,8 @@
     text-indent: 2vmax;
     border: lightslategray solid;
     margin: 5%;
-    padding: 5%;    
+    padding: 5%;
+    background-color: aliceblue;    
 }
 .Header-pic {
     display: block;
@@ -14,7 +15,34 @@
 }
 .Header-pic img {
     width: 100%;
-    border: 2px solid rgb(201, 199, 199);
+    border: 2px solid rgb(166, 189, 212);
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    color: black;
+}
+.tab a{
+    text-decoration: none;
+    color: black;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: black;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
 }
 .centre-align {
     text-align: center;
@@ -56,31 +84,4 @@
 }
 footer {
     background-color: rgb(113, 157, 196);
-}
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    margin-top: 2%;
-    color: black;
-}
-.tab a{
-    text-decoration: none;
-    color: black;
-}
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    color: black;
-}
-.tab button:hover {
-  background-color: #ddd;
-}
-.tab button.active {
-  background-color: #ccc;
 }
