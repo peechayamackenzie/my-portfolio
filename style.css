@@ -1,31 +1,101 @@
+/***----Homepage----***/
+
+.home-main {
+    background-size: auto;
+    overflow: hidden;
+    height: 100%;
+}
+.header-tab{
+    background-color: white;
+    column-count: 2;
+}
+.header-tab button{
+    font-family: fantasy;
+    font-size: 180%;
+    font-weight: 550;
+    text-indent: 2vmax;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-style: none;
+    background-color: white;
+    margin: 1.5vmax;
+    margin-bottom: 2vmax;
+}
+.header-tab a{
+    text-decoration: none;
+    color: black;
+}
+#tab {
+    overflow: hidden;
+    margin-top: 2%;
+    color: black;
+    float: right;
+}
+#tab a{
+    text-decoration: none;
+    color: black;
+}
+#tab button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    text-indent: 2vmax;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-style: none;
+    background-color: white;
+    margin: 1.5vmax;
+    margin-bottom: 2vmax;
+}
+/*
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}*/
+
+/***----About Me-----***/
+
 .main {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 160%;
-    font-size: 110%;
-    text-indent: 2vmax;
-    border: lightslategray solid;
-    margin: 5%;
-    padding: 5%;    
-    background-color: rgb(241, 236, 241);
-}
-.Header-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-.Header-pic img {
-    width: 100%;
 }
 .centre-align {
     text-align: center;
     align-items: center;
 }
-h1 {
+.main h2 {
+    font-family: Andale Mono, monospace;
     color: rgb(49, 48, 48);
 }
+.About-me {
+    column-count: 2;
+    justify-content: space-evenly ;
+    align-content: space-between;
+    margin: 4%;
+}
+.About-info h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.About-info{
+    flex-wrap: nowrap;
+    word-wrap: break-word;
+}
+.About-pic{
+    
+    text-align: center;
+}
+.About-pic img{
+    margin: 10%;
+    width: 60%;
+}
+/*
 .Darwin h3 {
-    font-family: Chalkduster, fantasy;
+    font-family: Chalkduster, faßntasy;
     font-style: oblique;
     color: midnightblue;
 }
@@ -33,22 +103,32 @@ h1 {
     color: rgb(34, 104, 184);
     font-weight: bold;
 }
-.youtube {
-    border-inline-color: white;
+.Arthur img{
+    width: 90%;
+    margin-top: 5%;
 }
-.youtube iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 100%;
+
+
+/***-----contact page-----***/
+.contact{
+    column-count: 2;
+    justify-content: space-evenly ;
+    align-content: space-between;
+    margin: 4%;
+}
+.contact-pic img{
+    width: 90%;
+}
+.contact-info{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
 }
 .contact-button {
     margin: 2%
 }
-.Arthur img{
-    width: 90%;
+.contact-button a{
+    text-decoration: none;
+    color: rgb(9, 9, 36);
 }
-footer {
-    background-color: rgb(113, 157, 196);
-}
+
