@@ -10,9 +10,33 @@
     font-family: Andale Mono, monospace;
     color: rgb(49, 48, 48);
 }
+.About-me {
+    column-count: 2;
+    justify-content: space-evenly ;
+    align-content: space-between;
+    margin: 5%;
+}
+.About-info h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.Info{
+    flex-wrap: nowrap;
+}
+.About-pic{
+    margin: 10%;
+    justify-content: center;
+    align-content: center;
+}
+.About-pic img{
+
+}
 /*
 .Darwin h3 {
-    font-family: Chalkduster, fantasy;
+    font-family: Chalkduster, faßntasy;
     font-style: oblique;
     color: midnightblue;
 }
