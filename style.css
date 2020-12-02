@@ -1,4 +1,4 @@
-/***About Me***/
+/***----About Me-----***/
 .main {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,6 +10,7 @@
     font-family: Andale Mono, monospace;
     color: rgb(49, 48, 48);
 }
+/*
 .Darwin h3 {
     font-family: Chalkduster, fantasy;
     font-style: oblique;
@@ -29,8 +30,9 @@
     width: 60%;
     height: 100%;
 }
+*/
 
-/***contact page***/
+/***-----contact page-----***/
 .contact-button {
     margin: 2%
 }
@@ -45,7 +47,7 @@
 footer {
     background-color: rgb(113, 157, 196);
 }
-/***Homepage***/
+/***----Homepage----***/
 .home-main {
     background-size: cover;
     overflow: hidden;
